@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot');
+    src: local('Gilroy Light'), local('Gilroy-Light'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.ttf') format('truetype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot');
+    src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif !important;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#nav h3{
+    font-size: 17px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+
+}
+#nav i{
+    font-size: 17px;
+    border: 1.5px solid black;
+    padding: 5px 8px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: white;
+
+}
+#nav #btn2{
+background-color: rgb(216, 59, 3);
+color: white;
+border: none !important;
+}
+#mainh1{
+    font-size: 120px;
+    text-transform: uppercase;
+    position: absolute;
+    font-weight: 800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 280px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
+.down {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px; /* Adjust to your desired width */
+    height: 30px; /* Height should be half of the width */
+    border: 2px solid black;
+    border-radius: 50% 50% 5% 5%; /* Rounds only the top corners */
+    background-color: white; /* Background color of the half-circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    box-sizing: border-box; /* Ensures padding and border are included in the element’s total width and height */
+}
+.social {
+    display: flex;;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    font-size: 30px;
+    font-weight: 200;
+    padding: 20px;
+   
+}
+.social i{
+    text-align: center;
+   
+gap:17px;
+}
+p{
+    margin-top: 10px;
+    display: flex;;
+    position: absolute;
+    bottom: 1%;
+    right: 3%;
+    font-size: 17px;
+    
+}
+.set{
+    position: absolute;
+   display: flex;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: space-between;
+    gap: 5px;
+    
+   
+    
+}
+.setting{
+    border: 2px solid rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 5px;
+}
+
+ .set h2{
+    border: 2px solid rgb(248, 247, 247);
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 5px;
+}
+
