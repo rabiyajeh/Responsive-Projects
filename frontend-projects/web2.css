@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot');
+    src: local('Gilroy Light'), local('Gilroy-Light'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.ttf') format('truetype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot');
+    src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif !important;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+
+}
+#intro{
+    width: 100%;
+    height: 40%;
+    padding: 50px 60px;
+}
+#intro h1{
+    font-size: 95px;
+    line-height: 90px;
+    letter-spacing: -3px;
+   
+}
+#place{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#place h3,#place h4{
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 80px;
+}
+
+#hero-img{
+    width: 100%;
+    height: 95%;
+  margin-top: 80px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/033/662/051/small/cartoon-lofi-young-manga-style-girl-while-listening-to-music-in-the-rain-ai-generative-photo.jpg);
+    background-size:cover;
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-left: 5px;
+
+}
+#about{
+    height: 45%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    
+}
+#about h2{
+    width: 52%;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 540;
+    letter-spacing: -2px;
+
+
+}
+#about-part2{
+    width:35%;
+    height: 100%;
+    border-left: 2px solid black ;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+   
+   
+}
+#about-part h3{
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: -1px;
+}
+#icons i{
+background-color: black;
+color: white;
+padding: 10px;
+margin-right: 5px;
+font-size: 22px;
+border-radius: 50%;
+}
+#work{
+    height: 55%;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2p solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+#work h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 540;
+    letter-spacing: -2px;
+    padding: 30px 60px;
+}
+#work1{
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 25px;
+}
+#work1 h3{
+    font-weight: 550;
+}
+#work2{
+    height: 100%;
+    width: 60%;
+    
+
+
+}
+.work2-part{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 25px;
+}
+.work2-part:nth-child(1){
+    border-bottom: 2px solid black;
+    padding-top: 0;
+
+
+}
+.work2-part .elem{
+    width: 50%;
+    height: 100%;
+}
+.work2-part .elem:nth-child(1) {
+    border-right: 2px solid black;
+
+}
+.work2-part .elem:nth-child(2) {
+   padding-left: 60px;
+
+}
+.work2-part .elem h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.work2-part .elem p{
+    font-size: 17px;
+    color: rgba(88, 74, 32, 0.822);
+}
