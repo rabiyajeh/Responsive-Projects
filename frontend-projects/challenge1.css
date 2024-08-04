@@ -1,0 +1,147 @@
+:root {
+    --primary-bg-color: #10103a;
+    --button-bg-color: #ffffff;
+    --button-text-color: #ffffff;
+    --border-color: #000000;
+    --text-color: #ffffff;
+    --font-family: 'Gilroy', sans-serif;
+    --font-size: 17px;
+    --border-radius: 15px;
+    --padding: 10px;
+    --margin: 8px;
+    --transition-duration: 0.3s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family) !important;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#signuplogin {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Align items to the start of the container */
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f4f4f4;
+    gap: 20px; /* Add space between the forms */
+}
+
+#signupform, #detailform {
+    flex: 1; /* Make both forms flexible and take equal width */
+    max-width: 500px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--border-color);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    background-color: #ffffff;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input, button {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: var(--padding);
+    margin-bottom: 10px;
+    font-size: var(--font-size);
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    background-color: var(--primary-bg-color);
+    color: var(--button-text-color);
+    cursor: pointer;
+    transition: background-color var(--transition-duration), transform var(--transition-duration);
+}
+
+button:hover {
+    background-color: var(--button-bg-color);
+    transform: scale(1.05);
+}
+
+a {
+    color: var(--primary-bg-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google, .email {
+    display: flex;
+    border: 2px solid var(--border-color);
+    padding: 8px;
+    border-radius: var(--border-radius);
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size);
+    margin: var(--margin);
+    width: 100%;
+    max-width: 400px;
+    background-color: var(--button-bg-color);
+    color: var(--text-color);
+    text-align: center;
+    transition: background-color var(--transition-duration), transform var(--transition-duration);
+}
+
+.google img, .email img {
+    max-width: 24px;
+    height: auto;
+    margin-right: 8px;
+}
+
+.google:hover, .email:hover {
+    background-color: var(--primary-bg-color);
+    transform: scale(1.05);
+}
+
+.email {
+    background-color: var(--primary-bg-color);
+    color: var(--button-text-color);
+    
+}
+.email a{
+color: white;
+}
+.email img {
+    filter: invert(100%) brightness(100%);
+}
